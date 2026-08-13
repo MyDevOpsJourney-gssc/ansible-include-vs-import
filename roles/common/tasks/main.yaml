@@ -18,6 +18,6 @@
     msg: "Hi, from common tasks execution  - MSG - 4"
 
 
-- name: call role-2
-  include_role: 
-    name: role-3
+# - name: call role-2
+#   include_role: 
+#     name: role-3
