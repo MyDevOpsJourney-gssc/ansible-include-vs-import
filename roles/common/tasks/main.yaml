@@ -12,6 +12,9 @@
   debug:
     msg: "Hi, from common tasks execution  - MSG - 3"
 
+- name: dynamicalling changing the value of OS using set_fact
+  set_fact:
+    os: "Debian"
 
 - name: This is the common task
   debug:
