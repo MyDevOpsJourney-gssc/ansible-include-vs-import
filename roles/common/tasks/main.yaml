@@ -1,7 +1,7 @@
 - name: This is the common task
   debug:
     msg: "Hi, from common tasks execution  - MSG - 1"
-    
+
 
 - name: This is the common task
   debug:
@@ -16,3 +16,8 @@
 - name: This is the common task
   debug:
     msg: "Hi, from common tasks execution  - MSG - 4"
+
+
+- name: call role-2
+  import_role: 
+    name: role-3
